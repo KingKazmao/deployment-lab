@@ -5,8 +5,8 @@ const path = require('path');
 
 app.get('/', (req, res) => {
 
-    res.sendFile( path.join(__dirname, '../index.html') );
-    res.sendFile( path.join(__dirname, '../styles.css') );
+    res.sendFile( path.join(__dirname, '../.vscode/index.html') );
+    res.sendFile( path.join(__dirname, '../.vscode/styles.css') );
 
 })
 
